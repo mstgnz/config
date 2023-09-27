@@ -29,7 +29,7 @@
   "editor.cursorStyle": "block",
   "editor.cursorBlinking": "solid",
   "editor.renderLineHighlight": "none",
-  "editor.autoClosingBrackets": "never",
+  "editor.autoClosingBrackets": "always",
   "editor.acceptSuggestionOnEnter": "on",
   "editor.wordBasedSuggestions": false,
   "diffEditor.renderSideBySide": false,
