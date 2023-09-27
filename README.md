@@ -1,8 +1,11 @@
-## My VSCODE configuration
+## My VSCODE and VIM configuration
 Keep this here, I'll ask you when I need it.
 
-## Settings
-[You can find my settings.json file here](https://github.com/mstgnz/vscode-config/blob/main/settings.json)
+## VsCode Settings
+[You can find my settings.json file here](https://github.com/mstgnz/config/blob/main/vscode.json)
+
+## Vim Settings
+ [You can find my .vimrc file here](https://github.com/mstgnz/config/blob/main/.vimrc)
 
 ## Extensions
 [Go](https://marketplace.visualstudio.com/items?itemName=golang.Go)
