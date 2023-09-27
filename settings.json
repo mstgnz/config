@@ -1,60 +1,56 @@
 {
+  "editor.tabSize": "${tabSize}",
+  "editor.fontSize": 12,
+  "editor.wordWrap": "off",
+  "editor.glyphMargin": false,
   "breadcrumbs.enabled": false,
+  "editor.matchBrackets": "never",
+  "editor.guides.indentation": false,
+  "editor.cursorSurroundingLines": 10,
+  "editor.overviewRulerBorder": false,
   "editor.scrollbar.vertical": "hidden",
   "editor.scrollbar.horizontal": "hidden",
-  "editor.fontSize": 12,
-  "editor.matchBrackets": "never",
   "editor.hideCursorInOverviewRuler": true,
-  "editor.overviewRulerBorder": false,
-  "editor.glyphMargin": false,
-  "editor.tabSize": 4,
-  "editor.guides.indentation": false,
   "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
-  "editor.wordWrap": "off",
-  "editor.cursorSurroundingLines": 10,
   "editor.tokenColorCustomizations": {
     "comments": "#2ea542",
   },
-  // Suggestions
-  "editor.wordBasedSuggestions": false,
-  "editor.acceptSuggestionOnEnter": "on",
   "editor.quickSuggestions": {
     "other": true,
     "comments": false,
     "strings": false
   },
-  "editor.roundedSelection": false,
-  "editor.minimap.enabled": false,
-  "editor.renderLineHighlight": "none",
-  "editor.cursorStyle": "block",
-  "editor.lineNumbers": "on",
-  "editor.cursorBlinking": "solid",
   "editor.folding": true,
-  "editor.autoClosingBrackets": "never",
-  "editor.insertSpaces": false,
   "editor.formatOnSave": true,
+  "editor.insertSpaces": false,
+  "editor.minimap.enabled": false,
+  "editor.roundedSelection": false,
+  "editor.lineNumbers": "on",
+  "editor.cursorStyle": "block",
+  "editor.cursorBlinking": "solid",
+  "editor.renderLineHighlight": "none",
+  "editor.autoClosingBrackets": "never",
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.wordBasedSuggestions": false,
   "diffEditor.renderSideBySide": false,
-  "workbench.startupEditor": "newUntitledFile",
-  "javascript.format.enable": false,
-  "window.closeWhenEmpty": true,
   "diffEditor.renderIndicators": false,
-  "typescript.updateImportsOnFileMove.enabled": "always",
+  "window.closeWhenEmpty": true,
+  "javascript.format.enable": false,
   "workbench.enableExperiments": true,
   "workbench.activityBar.visible": true,
-  "explorer.compactFolders": false,
-  "telemetry.telemetryLevel": "off",
-  "vim.cursorStylePerMode.normal": "block",
-  "vim.neovimUseConfigFile": true,
-  "explorer.confirmDragAndDrop": true,
-  "extensions.ignoreRecommendations": true,
+  "workbench.colorTheme": "Gruvbox Dark Hard",
+  "workbench.startupEditor": "newUntitledFile",
   "workbench.colorCustomizations": {
     "editorError.foreground": "#3a2525",
     "editorWarning.foreground": "#00000000",
     "editorInfo.foreground": "#00000000",
   },
-  "workbench.colorTheme": "Gruvbox Dark Hard",
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": true,
+  "extensions.ignoreRecommendations": true,
+  "telemetry.telemetryLevel": "off",
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "go.buildFlags": [
     "-v"
@@ -62,20 +58,21 @@
   "go.useLanguageServer": true,
   "go.testEnvFile": "",
   "go.toolsManagement.autoUpdate": true,
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.tabSize": 2
+  },
+  "[javascript]": {
+    "editor.tabSize": 2
   },
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
-  "javascript.updateImportsOnFileMove.enabled": "always",
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
-  // Vim
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  // vim
   "vim.enableNeovim": false,
   "vim.neovimPath": "/usr/bin/nvim",
   "vim.searchHighlightColor": "rgba(150, 255, 255, 0.3)",
@@ -86,6 +83,8 @@
   "vim.useSystemClipboard": true,
   "vim.useCtrlKeys": true,
   "vim.hlsearch": true,
+  "vim.cursorStylePerMode.normal": "block",
+  "vim.neovimUseConfigFile": true,
   "vim.handleKeys": {
     "<C-a>": false,
     "<C-f>": false
