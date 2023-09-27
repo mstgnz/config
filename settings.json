@@ -1,5 +1,5 @@
 {
-  "editor.tabSize": "${tabSize}",
+  "editor.tabSize": 4,
   "editor.fontSize": 12,
   "editor.wordWrap": "off",
   "editor.glyphMargin": false,
@@ -38,7 +38,6 @@
   "javascript.format.enable": false,
   "workbench.enableExperiments": true,
   "workbench.activityBar.visible": true,
-  "workbench.colorTheme": "Gruvbox Dark Hard",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.colorCustomizations": {
     "editorError.foreground": "#3a2525",
@@ -49,26 +48,14 @@
   "explorer.confirmDragAndDrop": true,
   "extensions.ignoreRecommendations": true,
   "telemetry.telemetryLevel": "off",
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-  },
   "go.buildFlags": [
     "-v"
   ],
   "go.useLanguageServer": true,
   "go.testEnvFile": "",
   "go.toolsManagement.autoUpdate": true,
-  "[typescript]": {
+  "[json,jsonc,js,typescript,javascript]": {
     "editor.tabSize": 2
-  },
-  "[javascript]": {
-    "editor.tabSize": 2
-  },
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
