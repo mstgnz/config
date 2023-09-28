@@ -1,11 +1,16 @@
 ## My VSCODE and VIM configuration
 Keep this here, I'll ask you when I need it.
 
+## Vim Settings
+[vim-plug](https://github.com/junegunn/vim-plug)
+```bash
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
+[You can find my .vimrc file here](https://github.com/mstgnz/config/blob/main/.vimrc)
+
 ## VsCode Settings
 [You can find my settings.json file here](https://github.com/mstgnz/config/blob/main/vscode.json)
-
-## Vim Settings
- [You can find my .vimrc file here](https://github.com/mstgnz/config/blob/main/.vimrc)
 
 ## Extensions
 [Go](https://marketplace.visualstudio.com/items?itemName=golang.Go)
