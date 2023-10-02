@@ -2,7 +2,7 @@
   "editor.tabSize": 4,
   "editor.fontSize": 12,
   "editor.folding": true,
-  "editor.wordWrap": "off",
+  "editor.wordWrap": "on",
   "editor.lineNumbers": "on",
   "editor.glyphMargin": false,
   "editor.formatOnSave": true,
