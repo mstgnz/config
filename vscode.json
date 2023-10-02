@@ -9,7 +9,6 @@
   "breadcrumbs.enabled": false,
   "editor.insertSpaces": false,
   "editor.cursorStyle": "block",
-  "editor.matchBrackets": "never",
   "editor.minimap.enabled": false,
   "editor.roundedSelection": false,
   "editor.cursorBlinking": "solid",
@@ -18,13 +17,12 @@
   "editor.overviewRulerBorder": false,
   "editor.renderLineHighlight": "none",
   "editor.wordBasedSuggestions": false,
-  "editor.scrollbar.vertical": "hidden",
   "editor.autoClosingBrackets": "always",
   "editor.scrollbar.horizontal": "hidden",
   "editor.hideCursorInOverviewRuler": true,
   "editor.acceptSuggestionOnEnter": "on",
   "editor.tokenColorCustomizations": {
-    "comments": "#2ea542",
+    "comments": "#2ea542"
   },
   "editor.quickSuggestions": {
     "other": true,
@@ -42,13 +40,8 @@
   "workbench.enableExperiments": true,
   "workbench.activityBar.visible": true,
   "workbench.startupEditor": "newUntitledFile",
-  "workbench.colorCustomizations": {
-    "editorError.foreground": "#3a2525",
-    "editorWarning.foreground": "#00000000",
-    "editorInfo.foreground": "#00000000",
-  },
-  "workbench.colorTheme": "Gruvbox Dark (Hard)",
   "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Gruvbox Dark (Hard)",
   "workbench.preferredDarkColorTheme": "Gruvbox Dark (Hard)",
   "workbench.preferredHighContrastColorTheme": "Gruvbox Dark (Hard)",
   "workbench.preferredHighContrastLightColorTheme": "Gruvbox Dark (Hard)",
@@ -57,18 +50,14 @@
   "explorer.confirmDragAndDrop": true,
   "extensions.ignoreRecommendations": true,
   "telemetry.telemetryLevel": "off",
-  "go.buildFlags": [
-    "-v"
-  ],
+  "go.buildFlags": ["-v"],
   "go.useLanguageServer": true,
-  "go.testEnvFile": "",
   "go.toolsManagement.autoUpdate": true,
   "[json,jsonc,js,typescript,javascript]": {
     "editor.tabSize": 2
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
-  // vim
   "vim.enableNeovim": false,
   "vim.neovimPath": "/usr/bin/nvim",
   "vim.searchHighlightColor": "rgba(150, 255, 255, 0.3)",
@@ -87,31 +76,17 @@
   },
   "vim.insertModeKeyBindings": [
     {
-      "before": [
-        "j",
-        "j"
-      ],
-      "after": [
-        "<Esc>"
-      ]
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
     }
   ],
   "vim.normalModeKeyBindingsNonRecursive": [
     {
-      "before": [
-        "<leader>",
-        "d"
-      ],
-      "after": [
-        "d",
-        "d"
-      ]
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
     },
     {
-      "before": [
-        "<leader>",
-        "i"
-      ],
+      "before": ["<leader>", "i"],
       "after": [],
       "commands": [
         {
@@ -120,10 +95,7 @@
       ]
     },
     {
-      "before": [
-        "<leader>",
-        "u"
-      ],
+      "before": ["<leader>", "u"],
       "after": [],
       "commands": [
         {
@@ -132,10 +104,7 @@
       ]
     },
     {
-      "before": [
-        "<leader>",
-        "p"
-      ],
+      "before": ["<leader>", "p"],
       "after": [],
       "commands": [
         {
@@ -144,10 +113,7 @@
       ]
     },
     {
-      "before": [
-        "<leader>",
-        "o"
-      ],
+      "before": ["<leader>", "o"],
       "after": [],
       "commands": [
         {
@@ -156,10 +122,7 @@
       ]
     },
     {
-      "before": [
-        "<leader>",
-        "n"
-      ],
+      "before": ["<leader>", "n"],
       "after": [],
       "commands": [
         {
@@ -168,10 +131,7 @@
       ]
     },
     {
-      "before": [
-        "<leader>",
-        "v"
-      ],
+      "before": ["<leader>", "v"],
       "after": [],
       "commands": [
         {
@@ -180,10 +140,7 @@
       ]
     },
     {
-      "before": [
-        "<leader>",
-        "h"
-      ],
+      "before": ["<leader>", "h"],
       "after": [],
       "commands": [
         {
@@ -192,10 +149,7 @@
       ]
     },
     {
-      "before": [
-        "<leader>",
-        "l"
-      ],
+      "before": ["<leader>", "l"],
       "after": [],
       "commands": [
         {
@@ -204,9 +158,7 @@
       ]
     },
     {
-      "before": [
-        "<C-n>"
-      ],
+      "before": ["<C-n>"],
       "after": [],
       "commands": [
         {
@@ -216,3 +168,4 @@
     }
   ]
 }
+
