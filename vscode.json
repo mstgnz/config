@@ -17,13 +17,10 @@
   "editor.overviewRulerBorder": false,
   "editor.renderLineHighlight": "none",
   "editor.wordBasedSuggestions": false,
+  "editor.acceptSuggestionOnEnter": "on",
   "editor.autoClosingBrackets": "always",
   "editor.scrollbar.horizontal": "hidden",
   "editor.hideCursorInOverviewRuler": true,
-  "editor.acceptSuggestionOnEnter": "on",
-  "editor.tokenColorCustomizations": {
-    "comments": "#2ea542"
-  },
   "editor.quickSuggestions": {
     "other": true,
     "comments": false,
@@ -42,10 +39,6 @@
   "workbench.startupEditor": "newUntitledFile",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "Gruvbox Dark (Hard)",
-  "workbench.preferredDarkColorTheme": "Gruvbox Dark (Hard)",
-  "workbench.preferredHighContrastColorTheme": "Gruvbox Dark (Hard)",
-  "workbench.preferredHighContrastLightColorTheme": "Gruvbox Dark (Hard)",
-  "workbench.preferredLightColorTheme": "Gruvbox Dark (Hard)",
   "explorer.compactFolders": false,
   "explorer.confirmDragAndDrop": true,
   "extensions.ignoreRecommendations": true,
@@ -60,7 +53,6 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   "vim.enableNeovim": false,
   "vim.neovimPath": "/usr/bin/nvim",
-  "vim.searchHighlightColor": "rgba(150, 255, 255, 0.3)",
   "vim.leader": "<space>",
   "vim.cursorStylePerMode.insert": "block",
   "vim.easymotion": true,
